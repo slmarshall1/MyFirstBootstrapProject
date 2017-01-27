@@ -6,7 +6,7 @@ $(function () {
     // Create a text object. 
     // Does not display it-the canvas doesn't 
     // know about it yet.
-    var hi = new fabric.Text('You can move this text around, try it!', {
+    var hi = new fabric.Text('You can move this text and the shapes around, try it!', {
       left: canvas.getWidth() / 2,
       top: canvas.getHeight() / 2   
     });
@@ -43,6 +43,7 @@ circle.setGradient('fill', {
     1: '#ff6600'
   }
 });
+
 
 
         
